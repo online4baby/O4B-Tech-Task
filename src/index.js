@@ -1,2 +1,3 @@
-const Counter = require('./quantity');
-console.log(Counter());
+const Quantity = require('./quantity');
+
+customElements.define("quantity-element", Quantity);
