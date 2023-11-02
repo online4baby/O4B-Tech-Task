@@ -2,14 +2,12 @@
 
 ## Task
 
-Build a quantity control to be used on a product or basket page in an e-commerce website.
+Build a quantity control to be used on a product or basket page in an e-commerce website. The quantity control should be displayed to the user and usable i.e. they can increment and decrement the value, and it should be custom made and not a HTML input of type number.
 
 ## Spec
 
 - The quantity should have a maximum value of 10, a minimum of 0, and a starting value of 1
-- The quantity should be displayed to the user
-- The user should be able to increment and decrement the quantity
-- The quantity control should use be custom made and not a HTML input of type number
+- The quantity should be able to be increased and decreased
 
 ### This Boilerplate
 
@@ -33,7 +31,7 @@ npm t
 
 If the user is on a basket page, they could have numerous items in their shopping basket, which means numerous quantity controls would be required. This possibility of the need for multiple instances should be a factor to bear in mind when developing the feature.
 
-We are only interested in the functional logic for the feature, and its integration into a basic UI; its presentation is out of scope for this task. The UX team are still debating the look and feel, so you need to just get the feature working, it can be styled later.
+We are only interested in the functional logic for the feature, and its integration into a basic UI; its presentation is out of scope for this task. Tailwind is included in the HTML if you want to apply some basic classes to help you develop it but the UX team are still debating the look and feel, so you need to just get the feature working, it can be styled later.
 
 ## Feature RoadMap
 
@@ -55,6 +53,6 @@ Set the min and max thresholds upon instantiation (e.g. maybe we have low stock 
 
 ## Development Approach
 
-We'd like the development to be considered, methodical and with tests, but it does not have to be approached as a pure TDD exercise. We will expect you to use a test runner, and - just to be clear - to build the feature in vanilla JavaScript, not React.
+We'd like the development to be considered, methodical and with tests, it would be great if you can use TDD from the start, but it does not have to be approached as a pure TDD exercise if you're not comfortable doing so. We will expect you to use a test runner, and - just to be clear - to **build the feature in vanilla JavaScript, not React**.
 
-Unfortunately, we have a maniacal CTO who expects you to build this feature in a single hour, which means you need to factor that limited time into your development approach. This means you should consider things such as the extent of your development environment set up, what you decide to test and not to test, which aspects of the feature you focus on and which you don’t etc.
+Unfortunately, we have a maniacal CTO who expects you to build this feature in a single hour, which means you need to factor that limited time into your development approach. This means you should consider things such as what you decide to test and not to test, which requirements of the feature you focus on and which you don’t etc.
