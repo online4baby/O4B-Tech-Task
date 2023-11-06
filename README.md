@@ -4,6 +4,8 @@
 
 Build a quantity control to be used on a product or basket page in an e-commerce website. The quantity control should be displayed to the user and usable i.e. they can increment and decrement the value, and it should be custom made and not a HTML input of type number.
 
+![Quantity Control Example](quantity-control-example.png)
+
 ## Spec
 
 - The quantity should have a maximum value of 10, a minimum of 0, and a starting value of 1
